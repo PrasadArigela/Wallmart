@@ -1,0 +1,24 @@
+git init -- it is empty repostory
+git Status 
+git add . or * or give the file name
+git commit -m - The files are moving to local repo(-m message)
+git config --global user.name "username"
+git config --global user.email "email"
+git remote add wm url (wm- alias name, url- repository url)
+git remote -v (check the connection for github)
+git push wm master
+gi log - check how may times to commit 
+git log -1 -if you want see last comment 
+git show "commit id" or else "first 6 to 7 charcter commit id"
+git log "filename" - commit id shown
+git reset - this command is used to staging files moves to working area
+git reset "filename" - if you want move only one file from satging area to wokking area
+git commit -m "first commit" file1 file - if you want to move single file 
+git revert "commnetID" - whatever files are created  and updated files those are deleted in local repository
+git clean -n - to check remove the files
+git clean -f - to remove the files in working area
+
+
+
+
+
