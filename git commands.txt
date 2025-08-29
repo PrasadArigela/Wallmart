@@ -61,13 +61,5 @@ ssh -T git@github.com - to check the ssh connection between git and github
 git remote add "allias name" "you have to provide sshurl"
 ex: git remote add sshurl "git@github.com:PrasadArigela/Wallmart.git"
 PAT - personal access token (exp :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 )
-git rebase "branch name" - if will take "git merge commnad" or "git rebase command" integated from one branch code to other branch code. whatever comment id or objects individaully it is going to take and it is going to add the master branch.
-
-
-
-
-
-
-
-
+git rebase "branch name" - if will take "git merge commnad" or "git rebase command" integated from one branch code to other branch code. whatever comment id or objects individaully it is going to take and it is going to add the master branch....
 
