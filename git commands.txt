@@ -1,5 +1,9 @@
 git init -- it is empty repostory
+<<<<<<< HEAD
 git Status 
+=======
+git Status
+>>>>>>> c17463000da83d6b8f181e8a8d9c027cc36234ea
 git add . or * or give the file name
 git commit -m - The files are moving to local repo(-m message)
 git config --global user.name "username" - to configure the user name for github
@@ -7,13 +11,22 @@ git config --global user.email "email" - to configure the email name for github
 git remote add wm url (wm- alias name, url- repository url) - to add the github repository url to gitbash
 git remote -v (check the connection for github)
 git push wm master
+<<<<<<< HEAD
 gi log - check how may times to commit 
 git log -1 -if you want see last comment 
+=======
+gi log - check how may times to commit
+git log -1 -if you want see last comment
+>>>>>>> c17463000da83d6b8f181e8a8d9c027cc36234ea
 git show "commit id" or else "first 6 to 7 charcter commit id"
 git log "filename" - commit id shown
 git reset - this command is used to staging files moves to working area
 git reset "filename" - if you want move only one file from satging area to wokking area
+<<<<<<< HEAD
 git commit -m "first commit" file1 file - if you want to move single file 
+=======
+git commit -m "first commit" file1 file - if you want to move single file
+>>>>>>> c17463000da83d6b8f181e8a8d9c027cc36234ea
 git revert "commnetID" - whatever files are created  and updated files those are deleted in local repository
 git clean -n - to check remove the files
 git clean -f - to remove the files in working area
@@ -46,6 +59,7 @@ git push an(alias name) "branch name"       git push an(alias name) tag "tag nam
 
 git stash - it will take the backup(ex: if incase in our production we have a issue we need to fix that. if you will check the current branch if any changes it also effect other branch as well.So in that case you have take the backup.
 git stash list - it shows the all backup list(output: stash{0}, stash{1} like that)
+<<<<<<< HEAD
 git stash applay stash{0} - The backup will aplicable for only one . 
 git stash applay - the backup will aplicable for latest version only
 git stash drop - the latest version backup file will be deleted. 
@@ -53,6 +67,15 @@ git stash drop stash{0} - as you mention that backup file only will be deleted
 git stash pop - instaed of (git stash  apply or git stash drop ) to use.
 git cherry-pick - if particular file is updated in the one branch same you want to update other branch as well you can use cherry-pick command.
 git cherry-pick "comment id" 
+=======
+git stash applay stash{0} - The backup will aplicable for only one .
+git stash applay - the backup will aplicable for latest version only
+git stash drop - the latest version backup file will be deleted.
+git stash drop stash{0} - as you mention that backup file only will be deleted
+git stash pop - instaed of (git stash  apply or git stash drop ) to use.
+git cherry-pick - if particular file is updated in the one branch same you want to update other branch as well you can use cherry-pick command.
+git cherry-pick "comment id"
+>>>>>>> c17463000da83d6b8f181e8a8d9c027cc36234ea
 git clone -  command is used to create a local copy of an existing Git repository, which can be located on a remote server (like GitHub, GitLab, or Bitbucket) or on the local filesystem. (it will take the remote repository url)
 git pull (aliasname) (branch name)/pit fetch (aliasname) (branch name) - we have to take the code from the remote repostory after that we can use git merge (alias name and branch name)
 git pull = git fetch + git merge
